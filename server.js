@@ -18,7 +18,6 @@ const prompts = {
                             `Add Department`,
                             `Add Employee`,
                             `Add Role`,
-                            `Update Employee Role`,
                             `Exit Application`
                         ]
                     }
@@ -173,12 +172,6 @@ const mainMenu = (returnedInput) => {
                 break;
 
             case `Add Role`:
-
-                break;
-
-            case  `Update Employee Role`:
-
-                prompts.updateEmployee();
 
                 break;
 
